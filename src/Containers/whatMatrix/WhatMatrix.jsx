@@ -1,5 +1,5 @@
 import React from 'react'
-import './whatMatrix'
+import './whatMatrix.css'
 
 const WhatMatrix = () => {
   return (
