@@ -9,7 +9,7 @@ const Navbar = () => {
 
       <div className='matrix__navbar-links'>
 
-        <div className='matrix__navbar-links_logo'>
+        <div className='matrix__navbar-links-logo'>
           <img className='logo-matrix' src={logo} alt="" />
 
         </div>
@@ -17,12 +17,16 @@ const Navbar = () => {
         <div className='matrix__navbar-links-container'>
 
           <p className='links-text' >
-              <a className='links' href="#home">Home</a>
-              <a href="#whatmatrix">What is The Matrix</a>
-              <a href="#possibility">Skynet AI</a>
-              <a href="#features">Case Studies</a>
-              <a href="#blog">Library</a>
-          </p>
+              <a className='links' href="#home">Home</a></p>
+          <p><a href="#whatmatrix">What is  The Matrix</a></p>
+          <p><a href="#possibility">Skynet AI</a></p>
+          <p><a href="#features">Case Studies</a></p>
+          <p><a href="#blog">Library</a></p>
+
+           
+              
+              
+              
 
         </div>
       </div>
