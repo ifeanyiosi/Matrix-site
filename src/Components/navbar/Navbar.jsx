@@ -1,13 +1,13 @@
 import React, {useState} from 'react'
-import {RiMenu3Line, RiCloseLin} from 'react-icons/ri'
+import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import './navbar.scss'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo1.png'
 
 const Menu = () => (
   <>
    <p className='links-text' >
               <a className='links' href="#home">Home</a></p>
-          <p><a href="#whatmatrix">What is  The Matrix</a></p>
+          <p><a href="#whatmatrix">What is The Matrix</a></p>
           <p><a href="#possibility">Skynet AI</a></p>
           <p><a href="#features">Case Studies</a></p>
           <p><a href="#blog">Library</a></p>
@@ -50,7 +50,7 @@ const Navbar = () => {
 
       <div className='matrix__navbar-menu'>
 
-          {toggleMenu ? <RiCloseLine color="fff" size={27} onClick={() => setToggleMenu(false)} /> : <RiMenu3Line color="fff" size={27} onClick={() => setToggleMenu(true)} />  
+          {toggleMenu ? <RiCloseLine color="20565d" size={27} onClick={() => setToggleMenu(false)} /> : <RiMenu3Line color="20565d" size={27} onClick={() => setToggleMenu(true)} />  
           }
           {toggleMenu && (
             <div className='matrix__navbar-menu-container scale-up-center'>
