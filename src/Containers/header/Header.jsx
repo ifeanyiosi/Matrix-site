@@ -10,10 +10,10 @@ const Header = () => {
       <div className='matrix__header-content'>
 
         <h1 className='gradient__text'>
-          Lets get you plugged into the Matrix for new and amazing experiences
+          Let's get you plugged into the Matrix for new and amazing experiences
         </h1>
 
-        <p>The Matrix is an opportunity for you to live out your wildest dreams from the comfort of your home. do you want to be a secret agent? A Rockstar? or A Superhero? The options are limitless. Get plugged in today</p>
+        <p>The Matrix is an opportunity for you to live out your wildest dreams from the comfort of your home. Do you want to be a secret agent? A Rockstar? or A Superhero? The options are limitless. Get plugged in today!!!</p>
 
         <div className='matrix__header-content__input'>
 
@@ -26,7 +26,7 @@ const Header = () => {
 
           <img src={people} alt="people" />
 
-          <p> Over 1,600 have requested early access </p>
+          <p> Over 1,600 people have requested early access </p>
 
         </div>
 

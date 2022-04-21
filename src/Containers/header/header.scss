@@ -25,7 +25,7 @@ p{
     font-style: normal;
     font-size: 20px;
     line-height: 27px;
-    color: #003B00;
+    color: #808080;
     margin-top: 1.5rem;
     }
 
@@ -63,10 +63,24 @@ p{
         font-weight: bold;
         font-size: 20px;
         line-height: 27px;
-         border-top-right-radius: 5px;
+        border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-        color: #fff;
+        color: #808080;
         outline: none;
         cursor: pointer;
         border: none;
+    }
+
+    .matrix__header-content__people {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 2rem;
+
+    }
+
+    .matrix__header-content__people img{
+        width: 181px;
+        height: 38px;
     }

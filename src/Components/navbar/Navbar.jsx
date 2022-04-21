@@ -6,7 +6,7 @@ import logo from '../../assets/logo1.png'
 const Menu = () => (
   <>
    <p className='links-text' >
-              <a className='links' href="#home">Home</a></p>
+              <a className='links'  href="#home">Home</a></p>
           <p><a href="#whatmatrix">What is The Matrix</a></p>
           <p><a href="#possibility">Skynet AI</a></p>
           <p><a href="#features">Case Studies</a></p>

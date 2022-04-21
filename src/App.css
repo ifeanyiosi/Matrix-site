@@ -16,43 +16,46 @@ a{
 
 .gradient__bg{
 
-    
-     /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 50% 50%, rgba(242, 243, 244, 1) 0%, rgba(242, 243, 244, 1) 100%);
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(13, 2, 8, 1) 100%); 
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 50% 50%, rgba(242, 243, 244, 1) 0%, rgba(242, 243, 244, 1) 100%);
+    background:-webkit-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(13, 2, 8, 1) 100%);
 
     /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 50% 50%, rgba(242, 243, 244, 1) 0%, rgba(242, 243, 244, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(13, 2, 8, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0D0208', endColorstr='#0D0208', GradientType=0 );
 
     /* ie 10+ */
-    background:-ms-radial-gradient(circle at 50% 50%, rgba(242, 243, 244, 1) 0%, rgba(242, 243, 244, 1) 100%);
+    background:-ms-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(13, 2, 8, 1) 100%);
 
-    /* global 92%+ browsers support */
-    background:radial-gradient(circle at 50% 50%, rgba(242, 243, 244, 1) 0%, rgba(242, 243, 244, 1) 100%);
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(13, 2, 8, 1) 100%);
 
 }
             
 
 .gradient__text{
-    /* ff 3.6+ */
-    background:-moz-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(32, 86, 93, 1) 100%); 
+    
+     /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(32, 86, 93, 1) 0%, rgba(0, 143, 17, 1) 100%); 
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(32, 86, 93, 1) 100%);
+    background:-webkit-linear-gradient(90deg, rgba(32, 86, 93, 1) 0%, rgba(0, 143, 17, 1) 100%);
 
     /* opera 11.10+ */
-    background:-o-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(32, 86, 93, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(32, 86, 93, 1) 0%, rgba(0, 143, 17, 1) 100%);
 
     /* ie 6-9 */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20565D', endColorstr='#0D0208', GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008F11', endColorstr='#20565D', GradientType=0 );
 
     /* ie 10+ */
-    background:-ms-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(32, 86, 93, 1) 100%);
+    background:-ms-linear-gradient(90deg, rgba(32, 86, 93, 1) 0%, rgba(0, 143, 17, 1) 100%);
 
     /* global 94%+ browsers support */
-    background:linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(32, 86, 93, 1) 100%);
+    background:linear-gradient(90deg, rgba(32, 86, 93, 1) 0%, rgba(0, 143, 17, 1) 100%);
     background-clip: text ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
