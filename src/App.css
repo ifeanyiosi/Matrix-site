@@ -36,7 +36,23 @@ a{
             
 
 .gradient__text{
-    background: var(--gradient-text);
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(32, 86, 93, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(32, 86, 93, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(32, 86, 93, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20565D', endColorstr='#0D0208', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(32, 86, 93, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(32, 86, 93, 1) 100%);
     background-clip: text ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
