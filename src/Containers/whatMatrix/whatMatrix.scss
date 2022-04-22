@@ -1,22 +1,5 @@
 
-.matrix__whatmatrix{
 
- /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 50% 50%, rgba(13, 2, 8, 1) 0%, rgba(0, 59, 0, 1) 100%);
-
-    /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 50% 50%, rgba(13, 2, 8, 1) 0%, rgba(0, 59, 0, 1) 100%);
-
-    /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 50% 50%, rgba(13, 2, 8, 1) 0%, rgba(0, 59, 0, 1) 100%);
-
-    /* ie 10+ */
-    background:-ms-radial-gradient(circle at 50% 50%, rgba(13, 2, 8, 1) 0%, rgba(0, 59, 0, 1) 100%);
-
-    /* global 92%+ browsers support */
-    background:radial-gradient(circle at 50% 50%, rgba(13, 2, 8, 1) 0%, rgba(0, 59, 0, 1) 100%);
-
-}
 
 .matrix__whatmatrix-feature{
     display: flex;
@@ -52,7 +35,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
-    color: #fff;
+    color: #003B00;
     cursor: pointer;
 }
 

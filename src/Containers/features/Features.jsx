@@ -12,7 +12,9 @@ const Features = ({title, text}) => {
 
       </div>
       <div className='matrix__features-container_feature-text'>
-        {text}
+        <p>
+          {text}
+        </p>
       </div>
 
     </div>

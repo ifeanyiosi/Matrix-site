@@ -2,7 +2,7 @@ import React from 'react'
 
 
 import {Footer, Header, Possibility, WhatMatrix, Features, Blog} from './Containers'
-import {CTA, Brand, Navbar } from './Components'
+import {CTA, Brand, Navbar, Feature } from './Components'
 import './App.css'
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
       </div>
       {/* <Brand/> */}
       <WhatMatrix/>
-      <Features/>
+      <Feature/>
       <Possibility/>
       <CTA/>
       <Blog/>

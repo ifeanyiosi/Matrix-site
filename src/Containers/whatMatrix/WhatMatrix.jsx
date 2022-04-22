@@ -1,11 +1,13 @@
 import React from 'react'
 import { Feature } from '../../Components'
 import Features from '../features/Features'
+
+
 import './whatMatrix.scss'
 
 const WhatMatrix = () => {
   return (
-    <div className='matrix__whatmatrix ' id='whatmatrix'>
+    <div className='matrix__whatmatrix section__margin' id='whatmatrix'>
 
       <div className='matrix__whatmatrix-feature'>
         <Features
