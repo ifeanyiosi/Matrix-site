@@ -1,7 +1,7 @@
 import React from 'react'
-import './features.css'
+import './features.scss'
 
-const Features = () => {
+const Features = ({title, text}) => {
   return (
     <div className='matrix__features-container__feature'>
       <div className='matrix__features-container__feature-title'>
@@ -12,7 +12,7 @@ const Features = () => {
 
       </div>
       <div className='matrix__features-container_feature-text'>
-
+        {text}
       </div>
 
     </div>

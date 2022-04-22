@@ -1,0 +1,30 @@
+.matrix__features-container__feature{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.matrix__features-container__feature-title{
+    color: #808080;
+    max-width: 180px;
+    margin-right: 2rem;
+}
+
+.matrix__features-container__feature-title h1{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height:24px ;
+    letter-spacing: -0.04rem ;
+}
+
+.matrix__features-container__feature-title div{
+    width: 38px;
+    height: 3px;
+    background: #fff ;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) ;
+}
+
