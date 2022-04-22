@@ -2,6 +2,8 @@ import React from 'react'
 import './header.scss'
 import people from '../../assets/people.png'
 import ai from '../../assets/ai.jpg'
+import aimatrix from '../../assets/aimatrix.png'
+import matrixlogo from '../../assets/matrixlogo.png'
 
 const Header = () => {
   return (
@@ -30,11 +32,12 @@ const Header = () => {
 
         </div>
 
-        <div className='matrix__header-image' >
-          <img src={ai} alt="AI" />
-        </div>
+        
 
       </div>
+      <div className='matrix__header-image' >
+          <img src={aimatrix} alt="AI" />
+        </div>
 
     </div>
   )

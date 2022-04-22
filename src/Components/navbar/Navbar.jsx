@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import './navbar.scss'
 import logo from '../../assets/logo1.png'
+import matrixlogo from '../../assets/matrixlogo.png'
 
 const Menu = () => (
   <>
@@ -25,7 +26,7 @@ const Navbar = () => {
       <div className='matrix__navbar-links'>
 
         <div className='matrix__navbar-links-logo'>
-          <img className='logo-matrix' src={logo} alt="" />
+          <img className='logo-matrix' src={matrixlogo} alt="" />
 
         </div>
 
