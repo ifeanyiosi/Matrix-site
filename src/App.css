@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #003B00 ;
+    background: #0D0208 ;
 }
 
 a{
@@ -57,6 +57,25 @@ a{
     /* global 94%+ browsers support */
     background:linear-gradient(90deg, rgba(32, 86, 93, 1) 0%, rgba(0, 143, 17, 1) 100%);
     background-clip: text ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient__text2{
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 50% 50%, rgba(13, 2, 8, 1) 0%, rgba(178, 190, 181, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 50% 50%, rgba(13, 2, 8, 1) 0%, rgba(178, 190, 181, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 50% 50%, rgba(13, 2, 8, 1) 0%, rgba(178, 190, 181, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 50% 50%, rgba(13, 2, 8, 1) 0%, rgba(178, 190, 181, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 50% 50%, rgba(13, 2, 8, 1) 0%, rgba(178, 190, 181, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

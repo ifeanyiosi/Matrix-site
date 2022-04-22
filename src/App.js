@@ -15,7 +15,7 @@ const App = () => {
         
 
       </div>
-      <Brand/>
+      {/* <Brand/> */}
       <WhatMatrix/>
       <Features/>
       <Possibility/>

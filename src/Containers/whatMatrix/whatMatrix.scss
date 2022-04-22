@@ -1,0 +1,100 @@
+
+// .matrix__whatmatrix{
+//     background: #011910;
+// }
+
+.matrix__whatmatrix-feature{
+    display: flex;
+
+}
+
+.matrix__whatmatrix-feature .matrix__whatmatrix-container__feature{
+    margin: 0;
+}
+
+.matrix__whatmatrix-feature .matrix__whatmatrix-container__feature-text{
+    max-width: 700px;
+}
+
+.matrix__whatmatrix-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+
+.matrix__whatmatrix-heading h1{
+    font-size: 34px;
+    line-height: 45px;
+    max-width: 510px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.matrix__whatmatrix-heading p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #008F11;
+    cursor: pointer;
+}
+
+.matrix__whatmatrix-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.matrix__whatmatrix-container .matrix__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.matrix__whatmatrix-container .gpt3__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .matrix__whatmatrix-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .matrix__whatmatrix-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .matrix__whatmatrix-feature .matrix__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .matrix__whatmatrix-feature .matrix__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .matrix__whatmatrix-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .matrix__whatgpt3-container .matrix__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
