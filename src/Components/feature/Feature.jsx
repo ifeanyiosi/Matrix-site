@@ -3,7 +3,9 @@ import './feature.scss'
 
 const Feature = () => {
   return (
-    <div>Feature</div>
+    <div>
+      
+    </div>
   )
 }
 
