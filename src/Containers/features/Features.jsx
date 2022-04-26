@@ -3,7 +3,7 @@ import './features.scss'
 
 const Features = ({title, text}) => {
   return (
-    <div className='matrix__features-container__feature'>
+    <div className='matrix__features-container__feature '>
       <div className='matrix__features-container__feature-title'>
         <div />
         <h1>

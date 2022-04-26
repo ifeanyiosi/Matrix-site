@@ -53,11 +53,13 @@
     min-width: 210px;
     display: unset;
     flex-direction: column;
+    color: #808080;
 }
 
 /* Customizing feature component as per needs */
 .matrix__whatmatrix-container .gpt3__features-container_feature-text {
     margin-top: 0.5rem;
+    color: #808080;
 }
 
 @media screen and (max-width: 850px) {

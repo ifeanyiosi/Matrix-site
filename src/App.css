@@ -7,20 +7,24 @@
 
 body{
     
-     /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 50% 50%, rgba(128, 128, 128, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(13, 2, 8, 1) 100%); 
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 50% 50%, rgba(128, 128, 128, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background:-webkit-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(13, 2, 8, 1) 100%);
 
     /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 50% 50%, rgba(128, 128, 128, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(13, 2, 8, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0D0208', endColorstr='#0D0208', GradientType=0 );
 
     /* ie 10+ */
-    background:-ms-radial-gradient(circle at 50% 50%, rgba(128, 128, 128, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background:-ms-linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(13, 2, 8, 1) 100%);
 
-    /* global 92%+ browsers support */
-    background:radial-gradient(circle at 50% 50%, rgba(128, 128, 128, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(13, 2, 8, 1) 0%, rgba(13, 2, 8, 1) 100%);
+
 }
 
 a{
